@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 1350px;
+    height: 1000px;
+    background-image: url(images/city.gif);
+    background-size: cover;
+}
+h1, h2, h3, h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+#hola {
+    font-size: 70px;
+    background: linear-gradient(pink, lightblue, rgb(255, 255, 206));
+    opacity: 70%;
+    padding: 4px 8px;
+    margin: 10px 0;
+    border: 4px solid black;
+}
+#nyc {
+    font-size: 40px;
+    background: linear-gradient(pink, lightblue, rgb(255, 255, 206));
+    opacity: 70%;
+    padding: 4px 8px;
+    margin: 10px 0;
+    border: 4px solid black;
+}
+#tres {
+    font-size: 30px;
+    background: linear-gradient(pink, lightblue, rgb(255, 255, 206));
+    opacity: 70%;
+    padding: 4px 8px;
+    margin: 100px 0 30px 0;
+    border: 4px solid black;
+}
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.hey {
+    margin: 0;
+    padding: 10px;
+    border: 6px solid white;
+}
+.dos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.ps {
+    font-size: 22px;
+    background: linear-gradient(pink, lightblue, rgb(255, 255, 206));
+    opacity: 70%;
+    padding: 4px 8px;
+    margin: 10px 0;
+    border: 4px solid black;
+}
+.three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bye1 {
+    font-size: 40px;
+    background: linear-gradient(pink, lightblue, rgb(255, 255, 206));
+    opacity: 70%;
+    padding: 4px 8px;
+    margin: 100px 0 5px 0;
+    border: 4px solid black;
+}
+.bye2 {
+    font-size: 30px;
+    background: linear-gradient(pink, lightblue, rgb(255, 255, 206));
+    opacity: 70%;
+    padding: 4px 8px;
+    margin: 5px 0;
+    border: 4px solid black;
+}
+.bye3 {
+    font-size: 50px;
+    background: linear-gradient(pink, lightblue, rgb(255, 255, 206));
+    opacity: 70%;
+    padding: 4px 8px;
+    margin: 5px 0;
+    border: 4px solid black;
+}
+.bye4 {
+    font-size: 20px;
+    background: linear-gradient(pink, lightblue, rgb(255, 255, 206));
+    opacity: 70%;
+    padding: 4px 8px;
+    margin: 5px 0;
+    border: 4px solid black;
+}
+#meka {
+    width: 400px;
+    height: 588px;
+    margin: 10px auto;
+    border: 5px solid white;
+    background-size: 440px;
+    background-position: center;
+    background-image: url(images/lilmeka.PNG);
+}
+#meka:hover {
+    border: 5px solid black;
+    background-image: url(images/meka.jpg);
+}
